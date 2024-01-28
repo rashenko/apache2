@@ -5,35 +5,44 @@
 > ## ЗАПУСКАТЬ СКРИПТЫ ОТ ПОЛЬЗОВАТЕЛЯ ROOT
 
 ### APACHE
-    # Установка Apache
+   > #Установка Apache
+   
     sudo apt install apache2
 #
-    # Запуск Apache
+   > #Запуск Apache
+   
     sudo systemctl start apache2
 #
-    # Проверка статуса
+   > #Проверка статуса
+   
     sudo systemctl status apache2
 #
 ### MySQL
 
-    # Устанавливаем MySQL
+   > #Устанавливаем MySQL
+    
     apt install mysql-server-8.0
 #
-    # Запускаем
+   > #Запускаем
+    
     systemctl start mysql
 #
 ### Node Exporter
 
-    # Скачиваем Node Exporter
+   > #Скачиваем Node Exporter
+    
     wget https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz
 #
-    # Распаковка архивов
+   > #Распаковка архивов
+   
     tar xzvf node_exporter-*.t*gz
 #
-    # Добавляем пользователей
+   > #Добавляем пользователей
+  
     useradd --no-create-home --shell /bin/false node_exporter
 #
-    # Копируем файлы в /usr/local
+   > #Копируем файлы в /usr/local
+
     cp node_exporter-*.linux-amd64/node_exporter /usr/local/bin
     chown node_exporter: /usr/local/bin/node_exporter
     
