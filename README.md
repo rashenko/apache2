@@ -6,7 +6,7 @@
 
 ### APACHE
     # Установка Apache
-    sudoapt install apache2
+    sudo apt install apache2
 #
     # Запуск Apache
     sudo systemctl start apache2
