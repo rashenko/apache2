@@ -29,5 +29,5 @@
    
 * #### Запустить скрипт recovery_base.sh
 #
-* ### Для бэкапа б\д использовать скрипты backup_database_file.sh
+* ### Для бэкапа б\д использовать скрипт backup_database_file.sh
 * ### Для бэкапа таблиц из б\д использовать скрипт backup_tbl_file.sh
