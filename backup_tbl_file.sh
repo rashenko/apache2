@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Настройки подключения к MySQL
 user="root"
 pass="qq"
