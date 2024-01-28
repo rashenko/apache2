@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR='/etc/apache2/sites-available/'
-DIR1='/home/qqee/apache2/000-backend1.conf'
+DIR1='/home/qqee/apache2-git/000-backend1.conf'
 DIR2='/etc/apache2/sites-available/000-backend1.conf'
 DIR4='/var/www/html/index.html'
 DIR5='/var/www/backend1/'
