@@ -34,4 +34,5 @@ mysql -u$user -p$pass -e "GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';"
 echo "Пользователь repl добавлен в MySQL и получил права на репликацию."
 # Устанавливаем пароль
 mysql -u$user -p$pass -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH 'caching_sha2_password' BY 'qq';"
+echo "Для пользователь repl в MySQL, установлен пароль qq"
 echo "Сервис Mysql готов к работе!"
