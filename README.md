@@ -26,6 +26,10 @@
    > #Запускаем
     
     sudo systemctl start mysql
+
+   > #Проверка статуса
+   
+    sudo systemctl status mysql
 #
 ### Node Exporter
 
