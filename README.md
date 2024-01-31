@@ -39,7 +39,7 @@
 #
    > #Распаковка архивов
    
-    sudo tar xzvf node_exporter-*.t*gz
+    tar xzvf node_exporter-*.t*gz
 #
 
 ### НАСТРОЙКА APACHE2
