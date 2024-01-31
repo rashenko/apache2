@@ -21,11 +21,11 @@
 
    > #Устанавливаем MySQL
     
-    apt install mysql-server-8.0
+    sudo apt install mysql-server-8.0
 #
    > #Запускаем
     
-    systemctl start mysql
+    sudo systemctl start mysql
 #
 ### Node Exporter
 
@@ -35,7 +35,7 @@
 #
    > #Распаковка архивов
    
-    tar xzvf node_exporter-*.t*gz
+    sudo tar xzvf node_exporter-*.t*gz
 #
 
 ### НАСТРОЙКА APACHE2
