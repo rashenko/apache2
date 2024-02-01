@@ -11,6 +11,12 @@ echo "Конфиг 000-backend1.conf, Apache сервиса скопирован
 mkdir $DIR5
 cp $DIR4 $DIR6
 
+#Активация новых файлов виртуального хоста
+a2ensite 000-backend1.conf
+
+#Отключите сайт по умолчанию, заданный в файле 000-default.conf:
+a2dissite 000-default.conf
+
 systemctl restart apache2
 if [ $? -eq 0 ]; then
         echo "Сервис Apache готов к работе!"
