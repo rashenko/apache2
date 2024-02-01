@@ -41,6 +41,17 @@
    
     tar xzvf node_exporter-*.t*gz
 #
+   > #Добавляем пользователей
+   
+    useradd --no-create-home --shell /bin/false node_exporter
+#
+
+   > # Копируем файлы в /usr/local
+
+    cp node_exporter-*.linux-amd64/node_exporter /usr/local/bin
+#    
+    chown node_exporter: /usr/local/bin/node_exporter
+#
 
 ### НАСТРОЙКА APACHE2
 ### 1. Настраиваем статические ip адреса :
